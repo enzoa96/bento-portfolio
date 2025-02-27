@@ -1,7 +1,9 @@
-export default function Home() {
+import Home from "@/component/Home";
+
+export default function Index() {
   return (
     <div>
-      <p>Hello World </p>
+      <Home/>
     </div>
   );
 }
